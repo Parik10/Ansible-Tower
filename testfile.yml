@@ -4,6 +4,6 @@
    - name: Create a file
      file:
        dest: /tmp/testfile
-       state: touch
+       state: directory
    tags:
    - create-file
