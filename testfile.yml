@@ -3,7 +3,7 @@
    tasks:
    - name: Create a file
      file:
-       dest: /tmp/testfile
-       state: touch
+       dest: /var/tmp/testfile
+       state: directory
    tags:
    - create-file
