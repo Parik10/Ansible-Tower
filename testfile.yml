@@ -1,9 +1,9 @@
 ---
  - hosts: all
-    tasks:
-     - name: Create a file
-        file:
-         dest: /home/ansibletower
-         state: touch
-     tags: 
-      - create-file
+   tasks:
+   - name: Create a file
+     file:
+       dest: /tmp/testfile
+       state: touch
+   tags:
+   - create-file
